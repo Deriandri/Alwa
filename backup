@@ -11,8 +11,8 @@ PURPLE='\033[0;35m'
 CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
-CHATID="1486508882"
-KEY="7286072978:AAF6JRoH86zg5UAQeHKrpIviAICDc-vJxDU"
+CHATID="7340723608"
+KEY="7814035795:AAH4zSirsjurxA64NqUN_UZirAOP7Ec0Tqs"
 TIME="10"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 clear
