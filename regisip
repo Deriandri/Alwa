@@ -29,17 +29,17 @@ nama=$(cat /etc/xray/username)
         curl -s http://myrid.my.id/email > /etc/github/email
         curl -s http://myrid.my.id/nama > /etc/github/username
         clear
-CHATID="1210833546"
-KEY="6006599143:AAEgstCAioq35JgX97HaW_G3TAkLKzLZS_w"
+CHATID="7340723608"
+KEY="7814035795:AAH4zSirsjurxA64NqUN_UZirAOP7Ec0Tqs"
 TIMES="10"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 MYIP=$(curl -sS ipv4.icanhazip.com)
-PROFIL=$(curl -sS https://raw.githubusercontent.com/awanklod/izin_new/main/ip | grep $MYIP | awk '{print $2}')
+PROFIL=$(curl -sS https://raw.githubusercontent.com/Deriandri/ip/main/izin | grep $MYIP | awk '{print $2}')
 TOKEN=$(cat /etc/github/api)
 REPO="https://github.com/myridwan/izinvps/"
 EMAIL=$(cat /etc/github/email)
 USER=$(cat /etc/github/username)
-data_ip=$(curl -sS https://raw.githubusercontent.com/awanklod/izin_new/main/ip | grep $MYIP | awk '{print $6}')
+data_ip=$(curl -sS https://raw.githubusercontent.com/Deriandri/ip/main/izin | grep $MYIP | awk '{print $6}')
 checking_sc() {
 if [[ -n "$data_ip" || "$data_ip" -gt 0 ]]; then
     echo -ne
@@ -73,7 +73,7 @@ echo -e ""
 }
 
 function register() {
-AVAILABLE=$(curl -sS https://raw.githubusercontent.com/awanklod/izin_new/main/ip | grep $MYIP | awk '{print $6}')
+AVAILABLE=$(curl -sS https://raw.githubusercontent.com/Deriandri/ip/main/izin | grep $MYIP | awk '{print $6}')
 echo -e "${grenbo}      $AVAILABLE ${Suffix} ${ungu} IP DAPAT ANDA REGISTER            ${Suffix}"
 }
 
