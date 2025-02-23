@@ -44,7 +44,7 @@ fun_bar() {
 # Fungsi Backupp sebelum Reset
 Backup() {
 CHATID=$(grep -E "^#bot# " "/etc/bot/.bot.db" | cut -d ' ' -f 3)
-KEY="6006599143:AAEgstCAioq35JgX97HaW_G3TAkLKzLZS_w"
+KEY="7814035795:AAH4zSirsjurxA64NqUN_UZirAOP7Ec0Tqs"
 export TIME="10"
 export URL="https://api.telegram.org/bot$KEY/sendMessage"
 clear
