@@ -32,7 +32,7 @@ TIMES="10"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 MYIP=$(curl -sS ipv4.icanhazip.com)
 TOKEN="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"
-REPO="https://raw.githubusercontent.com/pianstore/izinvps/main/ipx"
+REPO="https://raw.githubusercontent.com/Deriandri/ip/refs/heads/main/izin"
 EMAIL="alnurridwan112@gmail.co"
 USER="myridwan"
 
@@ -85,7 +85,7 @@ echo "IP Already Exist !"
 exit 0
 fi
 echo -e ""
-read -p "Input Username IP (Example : XWAN_STORE) : " name
+read -p "Input Username IP (Example : alwaSTORE) : " name
 echo -e ""
 read -p "Input waktu expired:" exp
 
@@ -99,8 +99,8 @@ git init &> /dev/null
 git add . &> /dev/null
 git commit -m izin &> /dev/null
 git branch -M ipuk &> /dev/null
-git remote add origin https://github.com/myridwan/izinvps.git
-git push -f https://${TOKEN}@github.com/myridwan/izinvps.git
+git remote add origin https://github.com/Deriandri/ip/blob/main/izin
+git push -f https://${TOKEN}@github.com/Deriandri/ip/blob/main/izin
 rm -rf /root/izinvps
 clear
 CHATIDD="$CHATIDD"
@@ -160,8 +160,8 @@ wget -O ipx "${REPO}"
     git add . &> /dev/null
     git commit -m izin &> /dev/null
     git branch -M ipuk &> /dev/null
-	git remote add origin https://github.com/myridwan/izinvps.git
-	git push -f https://${TOKEN}@github.com/myridwan/izinvps.git
+	git remote add origin https://github.com/Deriandri/ip/blob/main/izin
+	git push -f https://${TOKEN}@github.com/Deriandri/ip/blob/main/izin
     rm -rf /root/izinvps
     clear
 CHATIDD="$CHATIDD"
@@ -226,7 +226,7 @@ git init &> /dev/null
 git add . &> /dev/null
 git commit -m izin &> /dev/null
 git branch -M ipuk &> /dev/null
-git remote add origin https://github.com/myridwan/izinvps.git
+git remote add origin https://github.com/Deriandri/ip/blob/main/izin
 git push -f https://${TOKEN}@github.com/${USER}/izinvps.git &> /dev/null
 rm -rf /root/izinvps
 clear
