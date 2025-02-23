@@ -21,7 +21,7 @@ echo -e ""
 echo -e "\033[96;1m============================\033[0m"
 echo -e "\033[95;1m      INPUT SUBDOMAIN  \033[0m"
 echo -e "\033[96;1m============================\033[0m"
-echo -e "\033[91;1m Note. contoh domain :\033[0m \033[93m xxx.wanx-store.web.id\033[0m"
+echo -e "\033[91;1m Note. contoh domain :\033[0m \033[93m xxx.alwastore.web.id\033[0m"
 read -p "DOMAIN    :  " lol
 echo -e " "
 read -p "IP        :  " IP
@@ -84,8 +84,8 @@ ZONE=$(
 	)	
 	fi
 clear
-CHATID="1210833546"
-KEY="6006599143:AAEgstCAioq35JgX97HaW_G3TAkLKzLZS_w"
+CHATID="7340723608"
+KEY="7814035795:AAH4zSirsjurxA64NqUN_UZirAOP7Ec0Tqs"
 TIMES="10"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 TEXT="_______________________________
